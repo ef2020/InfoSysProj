@@ -19,7 +19,7 @@ def load_data():
     Fetches JSON data directly from the raw GitHub content.
     This avoids the need for git cloning and works better in cloud environments.
     """
-    base_url = "https://raw.githubusercontent.com/RichardLin3/InfoSysProj/main/data/"
+    base_url = "https://raw.githubusercontent.com/ef2020/InfoSysProj/main/data/"
     files = {
         "minor_data": "minors_v3.json",
         "gened_data": "gened_v2.json",
